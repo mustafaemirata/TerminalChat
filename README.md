@@ -21,14 +21,29 @@ Kullanıcılar, sunucuya bağlanarak mesaj gönderebilir ve alabilirler.
 
 ---
 
+## 📷 Görseller  
+
+### **1️⃣ Bağlantı Kurulması**  
+Sunucu ve istemci arasında bağlantı başarıyla kurulduğunda:  
+![Bağlantı](baglanti.png)  
+
+### **2️⃣ Mesajlaşma**  
+Sunucu ve istemci arasında mesajlaşma:  
+![Mesajlaşma](mesajlar.png)  
+
+### **3️⃣ Çıkış Yapma**  
+`quit` komutu girildiğinde bağlantı kapanır:  
+![Çıkış](quit.png)  
+
+---
+
 ## 🚀 Kurulum & Kullanım  
 
 ### 1️⃣ **Gerekli Modülleri Yükleyin**  
 Python'da ekstra bir kütüphane gerekmez, `socket` modülü Python ile birlikte gelir.  
 
 ### 2️⃣ **Sunucuyu Başlatın**  
-Önce sunucu dosyasını çalıştırın:  
+Önce server dosyasını çalıştırın, daha sonra client dosyasını çalıştırın:  
 ```sh
 python server.py
-
-
+python client.py
